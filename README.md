@@ -67,7 +67,7 @@ Coloca la fotografia de tu prototipo dibujado a lapiz -- Aun no se cuenta con pr
 ## Fritzing
 
 
-garfana
+## Pantallas Square Line Studio
 
 
 
