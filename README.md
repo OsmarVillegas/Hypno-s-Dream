@@ -1,36 +1,38 @@
 # InovaMath
 
 ## Integrantes
--Osmar Israel Villegas Martinez 
--Mario Alberto Rangel Marquez
--Martin Gabriel Godinez Morales
+- Osmar Israel Villegas Martinez 
+- Jose Armando Gutierrez Rodriguez
+- Victor Andres Garay Montes
 
 ## Objetivo general
-Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear y controlar el ambiente de una planta en una maceta utilizando sensores y actuadores, con el objetivo de maximizar su crecimiento y desarrollo al proporcionarle las condiciones ambientales óptimas, y presentar la información en una pantalla para su fácil acceso y visualización
+Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear y controlar el ambiente de una habitación con el fin de mejorar la calidad de sueño del usuario, monitoreando y en el caso de ser necesario mejorando las condiciones del ambiente para garantizar un sueño de calidad.
 
 ### Objetivos específicos
-Implementar un sistema de control de riego utilizando un sensor de humedad en el suelo y una bomba de agua, que permita mantener el nivel de humedad del suelo en un rango óptimo para el crecimiento de la planta, y que se active automáticamente cuando el nivel de humedad caiga por debajo del umbral deseado.
+Implementar un sistema de análisis del ambiente que monitorice condiciones como luz, ruido, temperatura y ritmo cardiaco en una habitación, en base a los resultados el sistema puede mejorar la calidad del ambiente y activar automáticamente mecanismos como un ventilador o música cuando las condiciones puedan llegar a perjudicar la calidad del sueño.
 
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
-| 1  |   MySQL  |   8.0   | SGBD |
-| 2  |ArduinoIDE|  2.0.3  |  IDE |
-| 3  |  Grafana |  9.4.7  |Dashboard|
-| 3  | Node-REd |  12.0.1  |Dashboard|
+| 1 |  sqlite  | 3.46.0 | SQL |
+| 2 | Thonny  | 4.1.4 |  IDE |
+| 3 | Node-Red | 3.2.9 | MQTT |
+| 4 | Firebase | 13.8.0 | NoSQL |
+| 5 | Square line studio | 1.4.1 | IDE |
 
-## Tabla con el hardware utilizado
+## Tabla con el hardware utilizado (El costo de cada componente es al dia de 2 de junio del 2024)
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-|1|Bomba|Mini bomba de agua sumergible. Excelente para proyectos en los que se necesite de poco voltaje, de 2,5v a 6v DC, puede bombear caudales de hasta 80-120L/H a una altura de 40-110cm, dependiendo del voltaje de alimentación usado, a mayor volteja mayor caudal y altura de bombeo.|![image](https://user-images.githubusercontent.com/48172198/234118727-50742d44-f3c1-496b-bfb6-5e9c5e15dbd2.png)|1|$55.00 MXN|
-|2|Fotorresitor|Una LDR es una resistencia que varía su valor en función de la luz que incide sobre ella. Así de fácil. También se llama fotocélula o resistencia LDR. Cuando hay luz sobre la LDR, su resistencia disminuye. Cuanto menos luz tenga la LDR mayor será su resistencia.|![image](https://user-images.githubusercontent.com/48172198/234118593-4d5ef68f-480e-4a53-8d18-4b59bc9e762b.png)|1|$3.00 MXN|
-|3|Proto Board|Una proto board es un tipo de tablero de circuito impreso utilizado para construir y probar prototipos de circuitos electrónicos. La proto board tiene una superficie con hileras de clavijas que se pueden soldar fácilmente a componentes electrónicos para crear un circuito temporal. Este tipo de tablero es ideal para desarrolladores de hardware y profesionales de la electrónica que desean experimentar con diferentes configuraciones de circuitos antes de producir un diseño final. Con una proto board, es posible realizar cambios y modificaciones rápidamente, lo que ahorra tiempo y reduce el costo de errores en el desarrollo de productos electrónicos.|![image](https://user-images.githubusercontent.com/41849043/215903654-777973ff-9668-4cec-bc4d-0ec231e15cf8.png)|2|$167.76 MXN|
-|4|Raspberry Pi|La Raspberry Pi es un ordenador de bajo costo y bajo consumo diseñado para el aprendizaje de informática y el desarrollo de proyectos electrónicos. Es una placa pequeña y compacta que se puede conectar a una pantalla, un teclado y un ratón para funcionar como un ordenador completo. La Raspberry Pi es una plataforma versátil y poderosa que se puede utilizar para una amplia gama de proyectos, desde el desarrollo de juegos hasta la automatización del hogar y la robótica.|![image](https://user-images.githubusercontent.com/41849043/215904260-e01da17b-a6ec-47e9-bda2-b8a267f1c31c.png)|1|$700 MXN|
-|5|Sensor de Humedad|Un sensor de humedad para Arduino es un dispositivo que se utiliza para medir la humedad del suelo y proporcionar una señal eléctrica proporcional a la cantidad de humedad presente en el suelo. Estos sensores constan de dos partes principales: el circuito de detección y la placa de control.|![image](https://cdn.shopify.com/s/files/1/0083/1858/2874/files/sensor-de-humedad-en-suelo-yl-69_2048x2048.jpg?v=1595010811)|1|$93.00 MXN|
+|1|Sensor de frecuencia cardiaca|Sensor de ritmo cardiaco para medir la calidad de sueño. |![image](https://user-images.githubusercontent.com/48172198/234118727-50742d44-f3c1-496b-bfb6-5e9c5e15dbd2.png)|1|$47,03 MXN|
+|2|Sensor de temperatura|Sensor para medir la temperatura del ambiente. |![image](https://user-images.githubusercontent.com/48172198/234118593-4d5ef68f-480e-4a53-8d18-4b59bc9e762b.png)|1|$17,04 MXN|
+|3|Fotoresistencia|Sensor capaz de medir la oscuridad del ambiente.|![image](https://user-images.githubusercontent.com/41849043/215903654-777973ff-9668-4cec-bc4d-0ec231e15cf8.png)|2|$13,97 MXN|
+|4|Sensor de ruido|Sensor para medir el ruido del ambiente.|![image](https://user-images.githubusercontent.com/41849043/215904260-e01da17b-a6ec-47e9-bda2-b8a267f1c31c.png)|1|$23,69 MXN|
+|5|DFPlayer-Mini Módulo/bocina y tarjeta sd|Modulo DFPlayer permite la reproducción de audios grabados en una memoria sd.|![image](https://cdn.shopify.com/s/files/1/0083/1858/2874/files/sensor-de-humedad-en-suelo-yl-69_2048x2048.jpg?v=1595010811)|1|$26,46 MXN|
 |6|ESP32|ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.|![image](https://m.media-amazon.com/images/I/61eyPE6adjL._SX466_.jpg)|2|$250.00 MXN|
-|7|Led RGB|LED RGB significa LED rojo, azul y verde. Los productos LED RGB combinan estos tres colores para producir más de 16 millones de tonos de luz.|![image](https://user-images.githubusercontent.com/41849043/232653796-da96d277-e313-47c5-b7e6-556e41decacd.png)|1|$1.00|
-|8|Sensor de gas|Este es un sensor muy sencillo de usar, ideal para medir concentraciones de gas natural en el aire. Puede detectar concentraciones desde 300 hasta 10000 ppm.|![image](https://user-images.githubusercontent.com/48172198/234708080-fb59c3ed-d30c-482e-8a76-057949332586.png)|1|$63.00|
-|9|Modulo MP3|Mini Modulo Reproductor Mp3 Dfplayer Ranura Micro Sd Arduino|![image](https://user-images.githubusercontent.com/48172198/234710251-6df62f9b-ceb9-4341-845f-874cc2ec9a85.png)|1|$59.00|
+|7|Ultrasonido|Modulo de ultrasonido especializado para humidificar.|![image](https://user-images.githubusercontent.com/41849043/232653796-da96d277-e313-47c5-b7e6-556e41decacd.png)|1|$11,42|
+|8|PantallaTFT|Pantalla TFT con esp32 programable.|![image](https://user-images.githubusercontent.com/48172198/234708080-fb59c3ed-d30c-482e-8a76-057949332586.png)|1|$653.78|
+|9|Pantalla (Weareble)|Mini Modulo Reproductor Mp3 Dfplayer Ranura Micro Sd Arduino|![image](https://user-images.githubusercontent.com/48172198/234710251-6df62f9b-ceb9-4341-845f-874cc2ec9a85.png)|1|$356,64|
+|10|Ventilador| Ventilador de bajo consumo. |![image]()|1|$16,87|
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 -Monitoreo de las condiciones ambientales de la planta: esta épica se enfoca en el monitoreo de las condiciones ambientales de la planta, como la humedad del suelo, la temperatura y la cantidad de luz que recibe. El objetivo es medir estos factores y presentarlos de manera visual en una pantalla para que los usuarios puedan tener una idea clara del estado de la planta.
