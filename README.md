@@ -28,9 +28,9 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 |3|Fotoresistencia|Sensor capaz de medir la oscuridad del ambiente.|![image](./Imagenes/Fotoresistor.jpeg)|2|$13,97 MXN|
 |4|Sensor de ruido|Sensor para medir el ruido del ambiente.|![image](./Imagenes/INMP441.jpg)|1|$23,69 MXN|
 |5|DFPlayer-Mini Módulo/bocina y tarjeta sd|Modulo DFPlayer permite la reproducción de audios grabados en una memoria sd.|![image](./Imagenes/DFPlayer.jpeg)|1|$26,46 MXN|
-|6|ESP32|ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.|![image](./imagenes/Esp32.jpg)|2|$250.00 MXN|
+|6|ESP32|ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.|![image](./Imagenes/Esp32.jpg)|2|$250.00 MXN|
 |7|Ultrasonido|Modulo de ultrasonido especializado para humidificar.|![image](./Imagenes/Mini_Humidificador.jpg)|1|$11,42|
-|8|PantallaTFT|Pantalla TFT con esp32 programable.|![image](./Imagenes/Esp32.jpg)|1|$653.78|
+|8|PantallaTFT|Pantalla TFT con esp32 programable.|![image](./Imagenes/Esp32-S3.jpg)|1|$653.78|
 |9|Pantalla (Weareble)|Mini Modulo Reproductor Mp3 Dfplayer Ranura Micro Sd Arduino|![image](./Imagenes/Esp32_E-Watch.jpeg)|1|$356,64|
 |10|Ventilador| Ventilador de bajo consumo. |![image](./Imagenes/Ventilador.jpeg)|1|$16,87|
 
