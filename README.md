@@ -58,7 +58,7 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 |  12 | Como usuario quiero poder configurar un recordatorio para dormir. | 5 | 1 Semana |Se puede configurar desde la aplicación y permite al usuario control sobre su ejecución.| Jose Armando Gutierrez Rodriguez |
 
 ## Tablero Kanban
-![image](./Imagenes/Kanban.png)
+![image](./Imagenes/Kanban.PNG)
 
 
 ## Prototipo en dibujo
