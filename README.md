@@ -55,29 +55,7 @@ Coloca la fotografia de tu prototipo dibujado a lapiz
 
 ## Codigo
 
-  [MIPROYECTO_1.zip](https://github.com/GabrielGM16/InovaMath/files/11337473/MIPROYECTO_1.zip)
-
 ## Fritzing
-
-<picture>
-  <img alt="Imagen Fritzing 1" src="./Fritzing/IMG_1.PNG">
-</picture>
-
-<picture>
-  <img alt="Imagen Fritzing 2" src="./Fritzing/IMG_2.PNG">
-</picture>
-
-json
-
-
-https://github.com/GabrielGM16/InovaMath/blob/main/flows.json
-
-garfana
-
-![WhatsApp Image 2023-04-26 at 8 27 37 PM](https://user-images.githubusercontent.com/48172198/234745292-05452899-e679-411e-b98b-e3cd1712b205.jpeg)
-
-![WhatsApp Image 2023-04-26 at 8 27 40 PM](https://user-images.githubusercontent.com/48172198/234745310-4e88d0d1-0884-414e-81a5-ec602567f18d.jpeg)
-
 
 
 ## Librerias Utilizadas
@@ -93,28 +71,13 @@ garfana
 
 -PubSubClient
 
-[LCD03.zip](https://github.com/GabrielGM16/InovaMath/files/11337519/LCD03.zip)
 
 
 ## Video demostracion
 
-https://vm.tiktok.com/ZMY35E1VB/
 
 ## Evidencias fotograficas
-![IMG_20230424_163821](https://user-images.githubusercontent.com/48172198/234709203-864ae5cc-25b3-4cba-a822-992062646fc5.jpg)
 
-
-![IMG_20230424_163714](https://user-images.githubusercontent.com/48172198/234709222-0ba2172b-abd0-4201-a1fb-4eac9e9ad035.jpg)
-
-
-
-![IMG_20230424_163753](https://user-images.githubusercontent.com/48172198/234709236-b5a27ff8-6fcd-4829-b49c-e05192dcb604.jpg)
-
-
-<img width="224" alt="image" src="https://user-images.githubusercontent.com/48172198/234709323-9bf92e4b-09e9-41db-a317-838d5f58832d.png">
-
-
-<img width="236" alt="image" src="https://user-images.githubusercontent.com/48172198/234709392-c9aed3ab-bd5c-440c-8cc1-39c33aa78929.png">
 
 
 
