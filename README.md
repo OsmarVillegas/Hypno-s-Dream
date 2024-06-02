@@ -57,6 +57,10 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 |  11 | Como usuario quiero poder configurar el dispositivo para humidificar el ambiente. | 4 | 1 Semana |Como usuario quiero poder configurar el dispositivo para humidificar el ambiente.| Jose Armando Gutierrez Rodriguez |
 |  12 | Como usuario quiero poder configurar un recordatorio para dormir. | 5 | 1 Semana |Se puede configurar desde la aplicación y permite al usuario control sobre su ejecución.| Jose Armando Gutierrez Rodriguez |
 
+## Tablero Kanban
+![image](./Imagenes/Kanban.png)
+
+
 ## Prototipo en dibujo
 Coloca la fotografia de tu prototipo dibujado a lapiz -- Aun no se cuenta con prototipo.
 ![WhatsApp Image 2023-04-24 at 4 34 01 PM](https://user-images.githubusercontent.com/48172198/234130922-47634047-e751-4dbc-bcff-5c4b5a530080.jpeg)
@@ -83,7 +87,6 @@ Coloca la fotografia de tu prototipo dibujado a lapiz -- Aun no se cuenta con pr
 -WiFi
 
 -PubSubClient
-
 
 ## Video demostracion
 
