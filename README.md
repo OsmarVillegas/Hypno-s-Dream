@@ -23,16 +23,16 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 ## Tabla con el hardware utilizado (El costo de cada componente es al dia de 2 de junio del 2024)
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-|1|Sensor de frecuencia cardiaca|Sensor de ritmo cardiaco para medir la calidad de sueño. |![image](./imagenes/Ritmo_cardiaco.jpeg)|1|$47,03 MXN|
-|2|Sensor de temperatura|Sensor para medir la temperatura del ambiente. |![image](./imagenes/Modulo_DHT11.jpeg)|1|$17,04 MXN|
-|3|Fotoresistencia|Sensor capaz de medir la oscuridad del ambiente.|![image](./imagenes/Fotoresistor.jpeg)|2|$13,97 MXN|
-|4|Sensor de ruido|Sensor para medir el ruido del ambiente.|![image](./imagenes/)|1|$23,69 MXN|
-|5|DFPlayer-Mini Módulo/bocina y tarjeta sd|Modulo DFPlayer permite la reproducción de audios grabados en una memoria sd.|![image](./imagenes/)|1|$26,46 MXN|
-|6|ESP32|ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.|![image](./imagenes/)|2|$250.00 MXN|
-|7|Ultrasonido|Modulo de ultrasonido especializado para humidificar.|![image](./imagenes/)|1|$11,42|
-|8|PantallaTFT|Pantalla TFT con esp32 programable.|![image](./imagenes/)|1|$653.78|
-|9|Pantalla (Weareble)|Mini Modulo Reproductor Mp3 Dfplayer Ranura Micro Sd Arduino|![image](./imagenes/)|1|$356,64|
-|10|Ventilador| Ventilador de bajo consumo. |![image](./imagenes/)|1|$16,87|
+|1|Sensor de frecuencia cardiaca|Sensor de ritmo cardiaco para medir la calidad de sueño. |![image](Imagenes/Ritmo_cardiaco.jpeg)|1|$47,03 MXN|
+|2|Sensor de temperatura|Sensor para medir la temperatura del ambiente. |![image](/Imagenes/Modulo_DHT11.jpeg)|1|$17,04 MXN|
+|3|Fotoresistencia|Sensor capaz de medir la oscuridad del ambiente.|![image](./Imagenes/Fotoresistor.jpeg)|2|$13,97 MXN|
+|4|Sensor de ruido|Sensor para medir el ruido del ambiente.|![image](./Imagenes/INMP441.jpg)|1|$23,69 MXN|
+|5|DFPlayer-Mini Módulo/bocina y tarjeta sd|Modulo DFPlayer permite la reproducción de audios grabados en una memoria sd.|![image](./Imagenes/DFPlayer.jpeg)|1|$26,46 MXN|
+|6|ESP32|ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.|![image](./imagenes/Esp32.jpg)|2|$250.00 MXN|
+|7|Ultrasonido|Modulo de ultrasonido especializado para humidificar.|![image](./Imagenes/Mini_Humidificador.jpg)|1|$11,42|
+|8|PantallaTFT|Pantalla TFT con esp32 programable.|![image](./Imagenes/Esp32.jpg)|1|$653.78|
+|9|Pantalla (Weareble)|Mini Modulo Reproductor Mp3 Dfplayer Ranura Micro Sd Arduino|![image](./Imagenes/Esp32_E-Watch.jpeg)|1|$356,64|
+|10|Ventilador| Ventilador de bajo consumo. |![image](./Imagenes/Ventilador.jpeg)|1|$16,87|
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 -Monitoreo de las condiciones ambientales de la planta: esta épica se enfoca en el monitoreo de las condiciones ambientales de la planta, como la humedad del suelo, la temperatura y la cantidad de luz que recibe. El objetivo es medir estos factores y presentarlos de manera visual en una pantalla para que los usuarios puedan tener una idea clara del estado de la planta.
