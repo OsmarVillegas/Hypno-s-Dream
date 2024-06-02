@@ -1,4 +1,4 @@
-# InovaMath
+# Hypno's Dream Project
 
 ## Integrantes
 - Osmar Israel Villegas Martinez 
@@ -35,27 +35,40 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 |10|Ventilador| Ventilador de bajo consumo. |![image](./Imagenes/Ventilador.jpeg)|1|$16,87|
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
--Monitoreo de las condiciones ambientales de la planta: esta épica se enfoca en el monitoreo de las condiciones ambientales de la planta, como la humedad del suelo, la temperatura y la cantidad de luz que recibe. El objetivo es medir estos factores y presentarlos de manera visual en una pantalla para que los usuarios puedan tener una idea clara del estado de la planta.
+-Monitorear las condiciones ambientales de una habitación: esta épica se enfoca en el monitoreo de las condicioens ambientales de la habitación, como temperatura, ruido y oscuridad del ambiente. El objetivo es medir estos factores y evaluarlos para realizar acciones que puedan que puedan mejorar la calidad del sueño, tambien la información se recopilara y se visualizara a forma de resumen.
 
--Control de riego automático: esta épica se enfoca en el control automático del riego de la planta utilizando un sensor de humedad en el suelo y una bomba de agua. El objetivo es mantener el nivel de humedad del suelo en un rango óptimo para el crecimiento de la planta, y que se active automáticamente cuando el nivel de humedad caiga por debajo del umbral deseado.
+-Control de calidad del ambiente: esta épica se enfoca en el control automático de la calidad del ambiente, para ello utiliza un sensor de temperatura, un ventilador, un sensor de ruido y un modulo DFPlayer. El objetivo es mejorar la calidad del ambiente en un rango óptimo para un sueño de calidad, los componentes se activa automáticamente cuando los niveles se encuentan por debajo del umbral desaedo.
 
--Integración con una plataforma IoT: esta épica se enfoca en la integración del proyecto con una plataforma IoT para la recopilación y análisis de datos en tiempo real. El objetivo es enviar los datos medidos por los sensores a una plataforma en la nube y permitir la visualización y análisis de los mismos desde cualquier lugar del mundo. Además, esto podría permitir la configuración remota de los parámetros del sistema.
+-Almacenamiento y analsis de datos: esta épica se enfoca en el almacenamiento y analiss de la información recopilada en tiempo real por medio de los sensores. El objetivo es enviar los datos medidos por los sensores a una base de datos y permitir su consumo para el análisis de los datos para entregarlos a forma de resumen al usuario.
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-|  1  | Como usuario, quiero poder ver los datos de humedad del suelo de mi planta en tiempo real, para poder determinar si necesita ser regada. Para ello, deseo que la pantalla muestre un gráfico con la evolución de la humedad del suelo en las últimas horas, así como un indicador de nivel de humedad actual. Además, deseo recibir una alerta visual o sonora cuando el nivel de humedad caiga por debajo de un umbral específico, indicando que la planta necesita ser regada.                   |           |            |               |             |
-|  2  | Como usuario, quiero poder configurar el riego automático de mi planta, para que se active automáticamente cuando el nivel de humedad caiga por debajo del umbral deseado. Para ello, deseo poder especificar el umbral deseado para el nivel de humedad, así como la duración y frecuencia del riego. Además, deseo tener la opción de desactivar el riego automático si lo deseo.                  |           |            |               |             |
-|  3  | Como usuario, quiero poder acceder a los datos de monitoreo de mi planta desde cualquier lugar del mundo, para poder verificar su estado y hacer ajustes si es necesario. Para ello, deseo que el proyecto esté integrado con una plataforma IoT en la nube, que me permita visualizar los datos de humedad, temperatura y luz de mi planta en tiempo real, desde cualquier dispositivo con conexión a internet. Además, deseo tener la opción de recibir notificaciones cuando el nivel de humedad caiga por debajo del umbral deseado, para poder tomar medidas inmediatas si es necesario.                 |           |            |               |             |
-|  4  |Como usuario, quiero poder ajustar los valores de referencia para el control automático de riego, para poder personalizar el sistema a las necesidades específicas de mi planta. Para ello, deseo tener acceso a una interfaz de usuario que me permita cambiar los valores de umbral de humedad y la duración y frecuencia del riego automático. Además, deseo poder guardar múltiples configuraciones personalizadas para diferentes tipos de plantas y suelos.|||||
+|  1  | Como usuario quiero que se monitorice en tiempo real la temperatura que tengo para tener información más fiel a la realidad.| 1 | 3 Dias |               |             |
+|  2  | Como usuario quiero que se monitorice en tiempo real mi ritmo cardiaco que tengo para tener información más fiel a la realidad.| 1 | 3 Dias |               |             |
+|  3  | Como usuario quiero que se monitorice en tiempo real la luz de mi cuarto para obtener información más fiel a la realidad.| 1 | 3 Dias |               |             |
+|  4  | Como usuario quiero que se monitorice en tiempo real el ruido en mi cuarto para obtener información más fiel a la realidad.| 1 | 3 Dias |||
+|  5  | Como usuario quiero una interfaz grafica para poder interactuar con la información obtenida facilmente. | 2 | 1 Semana |||
+|  6  | Como usuario quiero tener un resumen de la calidad de mi sueño para obtener la información importante más facilmente.| 2 | 2 Semanas |||
+|  7  | Como desarrollador quiero que la información se almacene en una base de datos que permita un facil y rapido acceso para facilitar su manejo. | 2 | 3 Dias |||
+|  8  | Como usuario quiero saber la duración de mi sueño para saber si dormi las horas necesarias.| 2 | 1 Semana |||
+|  9  | Como usuario quiero que el dispositivo sea comodo de usar para que no me moleste al dormir.| 3 | 1 Semana |||
+|  10 | Como usuario quiero poder colocar ruido para dormir facilmente desde la aplicación para ayudarme a dormir.| 3 | 1 Semana |||
+|  11 | Como usuario quiero poder configurar el dispositivo para humidificar el ambiente. | 4 | 1 Semana |||
+|  12 | Como usuario quiero poder configurar un recordatorio para dormir. | 5 | 1 Semana |||
 
 ## Prototipo en dibujo
-Coloca la fotografia de tu prototipo dibujado a lapiz
+Coloca la fotografia de tu prototipo dibujado a lapiz -- Aun no se cuenta con prototipo.
 ![WhatsApp Image 2023-04-24 at 4 34 01 PM](https://user-images.githubusercontent.com/48172198/234130922-47634047-e751-4dbc-bcff-5c4b5a530080.jpeg)
 
 ## Codigo
 
+
 ## Fritzing
+
+
+garfana
+
 
 
 ## Librerias Utilizadas
@@ -72,8 +85,8 @@ Coloca la fotografia de tu prototipo dibujado a lapiz
 -PubSubClient
 
 
-
 ## Video demostracion
+
 
 
 ## Evidencias fotograficas
