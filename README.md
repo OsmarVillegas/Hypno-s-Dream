@@ -5,11 +5,35 @@
 - Jose Armando Gutierrez Rodriguez
 - Victor Andres Garay Montes
 
+## Visión
+Se busca desarrollar un producto que sea
+
 ## Objetivo general
 Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear y controlar el ambiente de una habitación con el fin de mejorar la calidad de sueño del usuario, monitoreando y en el caso de ser necesario mejorando las condiciones del ambiente para garantizar un sueño de calidad.
 
 ### Objetivos específicos
 Implementar un sistema de análisis del ambiente que monitorice condiciones como luz, ruido, temperatura y ritmo cardiaco en una habitación, en base a los resultados el sistema puede mejorar la calidad del ambiente y activar automáticamente mecanismos como un ventilador o música cuando las condiciones puedan llegar a perjudicar la calidad del sueño.
+
+## Librerias Utilizadas
+-Pin
+
+-Sleep
+
+-SoftwareSerial
+
+-DFRobotDFPlayerMini
+
+-Wire
+
+-LiquidCrystal_I2C
+
+-WiFi
+
+-PubSubClient
+
+-I2C (Inter-Integrated Circuit)
+
+-ssd1306.py
 
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
@@ -18,7 +42,7 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 | 2 | Thonny  | 4.1.4 |  IDE |
 | 3 | Node-Red | 3.2.9 | MQTT |
 | 4 | Firebase | 13.8.0 | NoSQL |
-| 5 | Square line studio | 1.4.1 | IDE |
+| 5 | Square Line Studio | 1.4.1 | IDE |
 
 ## Tabla con el hardware utilizado (El costo de cada componente es al dia de 2 de junio del 2024)
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
@@ -31,8 +55,13 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 |6|ESP32|ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.|![image](./Imagenes/Esp32.jpg)|2|$250.00 MXN|
 |7|Ultrasonido|Modulo de ultrasonido especializado para humidificar.|![image](./Imagenes/Mini_Humidificador.jpg)|1|$11,42|
 |8|PantallaTFT|Pantalla TFT con esp32 programable.|![image](./Imagenes/Esp32-S3.jpg)|1|$653.78|
-|9|Pantalla (Weareble)|Mini Modulo Reproductor Mp3 Dfplayer Ranura Micro Sd Arduino|![image](./Imagenes/Esp32_E-Watch.jpeg)|1|$356,64|
+|9|Pantalla (Weareble)|Reloj inteligente ESP32, dispositivo programable con WIFI, Bluetooth, papel electrónico, Hardware y Software de código abierto|![image](./Imagenes/Esp32_E-Watch.jpeg)|1|$356,64|
 |10|Ventilador| Ventilador de bajo consumo. |![image](./Imagenes/Ventilador.jpeg)|1|$16,87|
+|11|Placa de pruebas sin soldadura| Placa de pruebas sin soldadura MB-102 400/830 puntos de conexión, placa de desarrollo de prueba PCB blanca/transparente, bricolaje para prototipos de escudo Arduino|![image](./Imagenes/Placa.jpeg)|1|$68,86|
+|12|Cautin| Soldador inteligente Original FM01 T65, equipo de soldadura PD, máquina de estación eléctrica, herramientas de reparación de Cautín, puntas FM65|![image](./Imagenes/Cautin.jpeg)|1|$68,86|
+|13|Cables | Cable de puente de cobre, Conector de línea Flexible sin soldadura de pruebas para placa Arduino DIY, 10cm, 20cm, 30cm, macho, hembra, 24AWG | ![image](./Imagenes/Cables.jpeg)|30|$56,61|
+|14|Banco de energía | Xiaomi-Banco de energía de alta capacidad, cargador de batería portátil de 120W, 30000mAh, para iPhone, Samsung y Huawei | ![image](./Imagenes/Banco.jpeg)|1|$278,81|
+
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 -Monitorear las condiciones ambientales de una habitación: esta épica se enfoca en el monitoreo de las condicioens ambientales de la habitación, como temperatura, ruido y oscuridad del ambiente. El objetivo es medir estos factores y evaluarlos para realizar acciones que puedan que puedan mejorar la calidad del sueño, tambien la información se recopilara y se visualizara a forma de resumen.
@@ -73,20 +102,6 @@ Coloca la fotografia de tu prototipo dibujado a lapiz -- Aun no se cuenta con pr
 
 ## Pantallas Square Line Studio
 
-
-
-## Librerias Utilizadas
--SoftwareSerial
-
--DFRobotDFPlayerMini
-
--Wire
-
--LiquidCrystal_I2C
-
--WiFi
-
--PubSubClient
 
 ## Video demostracion
 
