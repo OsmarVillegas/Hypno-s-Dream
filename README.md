@@ -6,7 +6,7 @@
 - Victor Andres Garay Montes
 
 ## Visión
-Se busca desarrollar un producto que sea
+El objetivo del proyecto es desarrollar un producto de claidad capaz de monitorear y mejorar la calidad de sueño del usuarios final, el proyecto esta pensado especialmente para aquellas personas que cuentan con problemas del sueño, para cumplir con el proposito el dispositivo implementa técnologias para la recolección y analisis de datos para poder dar recomendaciones al usario final.
 
 ## Objetivo general
 Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear y controlar el ambiente de una habitación con el fin de mejorar la calidad de sueño del usuario, monitoreando y en el caso de ser necesario mejorando las condiciones del ambiente para garantizar un sueño de calidad.
