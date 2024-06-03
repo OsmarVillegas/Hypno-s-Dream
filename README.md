@@ -14,6 +14,9 @@ Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita mon
 ### Objetivos específicos
 Implementar un sistema de análisis del ambiente que monitorice condiciones como luz, ruido, temperatura y ritmo cardiaco en una habitación, en base a los resultados el sistema puede mejorar la calidad del ambiente y activar automáticamente mecanismos como un ventilador o música cuando las condiciones puedan llegar a perjudicar la calidad del sueño.
 
+## Arquitectura
+![image](./Imagenes/Arquitectura.jpg)
+
 ## Librerias Utilizadas
 - Pin
 
