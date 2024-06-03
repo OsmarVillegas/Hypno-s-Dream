@@ -41,7 +41,7 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
-| 1 |  sqlite  | 3.46.0 | SQL |
+| 1 |  postgresql  | 3.46.0 | SQL |
 | 2 | Thonny  | 4.1.4 |  IDE |
 | 3 | Node-Red | 3.2.9 | MQTT |
 | 4 | Firebase | 13.8.0 | NoSQL |
