@@ -15,25 +15,25 @@ Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita mon
 Implementar un sistema de análisis del ambiente que monitorice condiciones como luz, ruido, temperatura y ritmo cardiaco en una habitación, en base a los resultados el sistema puede mejorar la calidad del ambiente y activar automáticamente mecanismos como un ventilador o música cuando las condiciones puedan llegar a perjudicar la calidad del sueño.
 
 ## Librerias Utilizadas
--Pin
+- Pin
 
--Sleep
+- Sleep
 
--SoftwareSerial
+- SoftwareSerial
 
--DFRobotDFPlayerMini
+- DFRobotDFPlayerMini
 
--Wire
+- Wire
 
--LiquidCrystal_I2C
+- LiquidCrystal_I2C
 
--WiFi
+- WiFi
 
--PubSubClient
+- PubSubClient
 
--I2C (Inter-Integrated Circuit)
+- I2C (Inter-Integrated Circuit)
 
--ssd1306.py
+- ssd1306.py
 
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
